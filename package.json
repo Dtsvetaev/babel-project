@@ -1,0 +1,23 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "A browser game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dtsvetaev/defender-game.git"
+  },
+  "keywords": ["game"],
+  "author": "Dimitrii Tsvetaev",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "core-js": "^3.15.2"
+  }
+}
